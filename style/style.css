@@ -8,9 +8,10 @@
 }
 /* header style */
  .header{
-  background-image: url(/images/developer.png),url(/images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  
+  background-image: url(../images/developer.png),url(../images/header_bg.png);
+  background-repeat: no-repeat,no-repeat;
+  background-position: top left, bottom right; 
  
 } 
 /* nav style */
@@ -25,9 +26,7 @@ nav{
  .nav{ 
    height: 400px; 
 } 
-.nav_background_image{
-  /* background-image: url(/images/developer.png); */
-}
+
 /* Mary style */
 .mary_text{
   font-weight: 800;
@@ -35,7 +34,7 @@ nav{
   
 }
 .r_color{
-  color: #FD6E0A;
+  color: none;
 }
  nav ul{
   display: flex;
@@ -52,7 +51,7 @@ nav ul li a{
 }
 
 .dark_2{
-  color: #474747;
+  color: white;
   font-size: 20px;
 }
 /* button style */
@@ -99,7 +98,7 @@ nav ul li a{
   height: 676px;
 }
 .second_bg{
-  background-color: rgb(223, 216, 216);
+  background-color: white;
 }
 /* main style */
 main {
@@ -211,7 +210,6 @@ footer textarea {
   
 }
 input[type="button"]{
-  
   width: 100%;
   font-size: 18px;
   height: 50px;
@@ -236,6 +234,7 @@ input[type="button"]{
   
   
 }
+
 
 
 
