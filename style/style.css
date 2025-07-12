@@ -4,28 +4,27 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
-/* header styl */
+/* header style */
  .header{
   background-image: url(/images/developer.png),url(/images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
  
 } 
-/* nav syle */
+/* nav style */
 nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 50px 200px;
-  
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat; 
   
 }
-/* .nav{ 
-  /* height: 400px; */
-} */
+ .nav{ 
+   height: 400px; 
+} 
 .nav_background_image{
   /* background-image: url(/images/developer.png); */
 }
@@ -40,7 +39,7 @@ nav{
 }
  nav ul{
   display: flex;
-  /* gap: 51px; */
+  
   align-items: center;
  }
 nav ul li{
@@ -56,8 +55,10 @@ nav ul li a{
   color: #474747;
   font-size: 20px;
 }
-/* button syle */
+/* button style */
 .btn_primary{
+  
+  text-align: center;
   width: 220px;
   height: 50px;
   background-color: #FD6E0A;
@@ -98,7 +99,7 @@ nav ul li a{
   height: 676px;
 }
 .second_bg{
-  background-color: #ad7349;
+  background-color: rgb(223, 216, 216);
 }
 /* main style */
 main {
@@ -167,8 +168,9 @@ main {
 .resume{
   text-align: center;
   margin: 51px;
+  margin-bottom: 100px;
 }
-/* footer syle */
+/* footer style */
 
 .footer{
   display: flex;
@@ -180,21 +182,58 @@ input[type="name"]{
   font-size: 18px;
   height: 50px;
   border-radius: 5px;
+  gap: 10px;
+  padding: 18px  5px 0 0;
+  border: none;
+  
   display: block;
+  
 }
-input[type="email"]{
+ input[type="email"]{
   width: 100%;
   font-size: 18px;
   height: 50px;
   border-radius: 5px;
+  padding: 18px  5px 0 0;
+  border: none;
   display: block;
+}
 
 footer textarea {
-
   width: 100%;
-  height: 50px%;
-  border-radius: 10px;
+  font-size: 18px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 18px  5px 0 0;
+  border: none;
   display: block;
+  
+  
+}
+input[type="button"]{
+  
+  width: 100%;
+  font-size: 18px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 18px  5px 0 0;
+  display: block;
+  border: none;
+
+  
+} 
+.btn_secondary{
+  
+  text-align: center;
+  width: 100%;
+  background-color: #FD6E0A;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 18px  5px 0 0;
+  border: none;
+  
   
 }
 
